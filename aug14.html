@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden Restaurant</title>
+</head>
+
+<body>
+
+    <!-- Restaurant Name -->
+    <h1 align="center">Spice Garden Restaurant</h1>
+
+    <p align="center">
+        <i>"Taste the Tradition, Enjoy the Flavor!"</i>
+    </p>
+
+    <hr>
+
+    <!-- Restaurant Image -->
+    <div align="center">
+
+        <h2>Welcome to Our Restaurant</h2>
+
+        <img src="restourant.webp"
+             alt="Restaurant Image"
+             width="500"
+             height="300">
+
+        <!-- Restaurant Description -->
+        <h2>About Our Restaurant</h2>
+
+        <p>
+            Spice Garden Restaurant is a family-friendly restaurant
+            offering delicious and freshly prepared food.
+            We serve a variety of Indian and international dishes
+            made with fresh ingredients.
+        </p>
+
+        <!-- Today's Special -->
+        <h2>Today's Special</h2>
+
+        <p>
+            Today's special is our delicious
+            <b>Paneer Tikka Masala</b>,
+            served with butter naan and fresh salad.
+        </p>
+
+        <!-- Popular Dishes -->
+        <h2>Popular Dishes</h2>
+
+        <ul style="display: inline-block; text-align: left;">
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Pasta</li>
+            <li>Ice Cream</li>
+        </ul>
+
+        <!-- Food Menu -->
+        <h2>Food Menu</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+
+            <tr>
+                <th>Food Item</th>
+                <th>Food Image</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Pizza</td>
+
+                <td>
+                    <img src="pizza.jpg"
+                         alt="Pizza"
+                         width="120"
+                         height="100">
+                </td>
+
+                <td>Main Course</td>
+                <td>₹250</td>
+            </tr>
+
+            <tr>
+                <td>Burger</td>
+
+                <td>
+                    <img src="burger.jpg"
+                         alt="Burger"
+                         width="120"
+                         height="100">
+                </td>
+
+                <td>Fast Food</td>
+                <td>₹150</td>
+            </tr>
+
+            <tr>
+                <td>Pasta</td>
+
+                <td>
+                    <img src="pasta.webp"
+                         alt="Pasta"
+                         width="120"
+                         height="100">
+                </td>
+
+                <td>Main Course</td>
+                <td>₹200</td>
+            </tr>
+
+            <tr>
+                <td>Ice Cream</td>
+
+                <td>
+                    <img src="ice cream.jpg"
+                         alt="Ice Cream"
+                         width="120"
+                         height="100">
+                </td>
+
+                <td>Dessert</td>
+                <td>₹100</td>
+            </tr>
+
+        </table>
+
+        <!-- Contact Details -->
+        <h2>Restaurant Contact Details</h2>
+
+        <p>
+            <b>Address:</b> Pune, Maharashtra, India
+        </p>
+
+        <p>
+            <b>Phone:</b> +91 9876543210
+        </p>
+
+        <p>
+            <b>Email:</b> spicegarden@gmail.com
+        </p>
+
+        <!-- Reservation Form -->
+        <h2>Table Reservation Form</h2>
+
+        <form>
+
+            <table cellpadding="8" align="center">
+
+                <tr>
+                    <td><b>Name</b></td>
+                    <td>
+                        <input type="text" name="name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Mobile</b></td>
+                    <td>
+                        <input type="tel" name="mobile" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Number of Persons</b></td>
+                    <td>
+                        <input type="number"
+                               name="persons"
+                               min="1"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Date</b></td>
+                    <td>
+                        <input type="date" name="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Food Preference</b></td>
+                    <td>
+                        <input type="radio"
+                               name="food"
+                               value="vegetarian"
+                               required>
+                        Vegetarian
+
+                        <br>
+
+                        <input type="radio"
+                               name="food"
+                               value="non-vegetarian">
+                        Non-Vegetarian
+
+                        <br>
+
+                        <input type="radio"
+                               name="food"
+                               value="vegan">
+                        Vegan
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
